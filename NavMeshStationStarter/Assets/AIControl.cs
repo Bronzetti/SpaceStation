@@ -5,16 +5,10 @@ using UnityEngine.AI;
 
 public class AIControl : MonoBehaviour
 {
-    public NavMeshAgent agent;
+    public NavMeshAgent agent; //declaração da variável agent 
 
     void Start()
     {
-        agent = this.GetComponent<NavMeshAgent>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        agent = this.GetComponent<NavMeshAgent>(); //utilização do NavMeshAgent pegando a variável agent
     }
 }
